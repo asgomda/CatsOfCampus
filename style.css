@@ -15,9 +15,15 @@ ul, ol {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+  }
+
 #header {
     background-image: url("images/banner.jpg");
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 200px;
     text-align: center;
 }
@@ -79,9 +85,13 @@ ul, ol {
   cursor: pointer;
 
 }
-#nav ul li {
+#nav ul li{
     background-color: aliceblue;
     padding: 10px;
     margin: auto 10px;
     display: inline-block;
   }
+
+a:hover{
+    color:aquamarine;
+}
