@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-image: url("images/banner.jpg");
+    background-position: center;
+    height: 200px;
+    text-align: center;
+}
+
+.title {
+    background-color: aliceblue;
+    display: inline-block;
+    padding: 10px;
+}
+.wrapper {
+    min-width: 400px;
+    max-width: 900px;
+    display: inline-block;
+    margin: auto;
+    text-align: left;
+}
+  
+#main {
+    display: inline-block;
+    text-align: left;
+    margin: auto;
+}
+
+/* #main .section{
+   margin: auto;
+
+} */
+.section {
+    display: flex;
+    padding: 15px;
+    margin: 20px;
+    background-color: aliceblue;
+    filter: drop-shadow(2px 2px 4px #888888);
+  }
+
+  .section img {
+    width: 200px;
+  }
+
+  .desc {
+    padding: 20px;
+  }
+  
+  .desc h2 {
+    font-size: 2rem;
+  }
+  
+  .desc h6 {
+    margin-bottom: 10px;
+    font-size: .75rem;
+    font-family: monospace;
+  }
+
+.section:hover{
+    border-color: #f1ff5c;
+    background: beige;
+  box-shadow: 0 0.5em 0.5em -0.3em #f1ff5c;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+
+}
+#nav ul li {
+    background-color: aliceblue;
+    padding: 10px;
+    margin: auto 10px;
+    display: inline-block;
+  }
